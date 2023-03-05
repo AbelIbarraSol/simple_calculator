@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="shortcut icon" href="assets/icons/icon_calculator.svg" type="x-icon">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/ccf4c900d0.js" crossorigin="anonymous"></script>
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--  GOLOS TEXT -->
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Inter&display=swap" rel="stylesheet">
+    <!-- NOVA MONO -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Nova+Mono&display=swap" rel="stylesheet">
+
+    <title>Calculator Vintage</title>
 </head>
+
 <body>
-    <header class="header"></header>
-    <main class=""></main>
-    <footer class=""></footer>
+    <header class="headerMain">
+        <div class="container">
+        </div>
+    </header>
+    <main class="mainContent">
+        <div class="container">
+            <input class="contentMain-screen" type="number" placeholder="00000000000000000000" readonly disabled >
+            <h1 class="contentMain-brandCalculator">Datamath I</h1>
+            <table class="contentMain-table">
+                <tr class="contentMain-table-buttons">
+                    <td><button class="contentMain-table-button operation">C</button></td=>
+                    <td><button class="contentMain-table-button operation">CE</button></td>
+                    <td><button class="contentMain-table-button operation"><i class="fa-solid fa-percent"></i></button></td>
+                    <td><button class="contentMain-table-button operation"><i class="fa-solid fa-divide"></i></i></button></td>
+                </tr>
+                <tr class="contentMain-table-buttons">
+                    <td><button class="contentMain-table-button number">7</button></td>
+                    <td><button class="contentMain-table-button number">8</button></td>
+                    <td><button class="contentMain-table-button number">9</button></td>
+                    <td><button class="contentMain-table-button operation"><i class="fa-solid fa-xmark"></i></button></td>
+                </tr>
+                <tr class="contentMain-table-buttons">
+                    <td><button class="contentMain-table-button number">4</button></td>
+                    <td><button class="contentMain-table-button number">5</button></td>
+                    <td><button class="contentMain-table-button number">6</button></td>
+                    <td><button class="contentMain-table-button operation"><i class="fa-solid fa-minus"></i></button></td>
+                </tr>
+                <tr class="contentMain-table-buttons">
+                    <td><button class="contentMain-table-button number">1</button></td>
+                    <td><button class="contentMain-table-button number">2</button></td>
+                    <td><button class="contentMain-table-button number">3</button></td>
+                    <td><button class="contentMain-table-button operation"><i class="fa-solid fa-plus"></i></button></td>
+                </tr>
+                <tr class="contentMain-table-buttons">
+                    <td><button class="contentMain-table-button number">0</button></td>
+                    <td><button class="contentMain-table-button decimal">.</button></td>
+                    <td><button class="contentMain-table-button equal"><i class="fa-solid fa-equals"></i></button></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer class="footerMain">
+        <div class="container">
+            <section class="footerMain-author">
+                <h6 class="footerMain-author-copyrigth">&copy; 2023 Mr Strange. All rights reserved.</h6>
+                <div class="footerMain-author-link">
+                    <a class="footerMain-author-link-socialMedia" href="http://www.linkedin.com/in/abel-ibarra-solgorre" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="footerMain-author-link-socialMedia" href="https://github.com/AbelIbarraSol" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a class="footerMain-author-link-socialMedia" href="https://codepen.io/mrStrange01" target="_blank"><i class="fa-brands fa-codepen"></i></a>
+                </div>
+            </section>
+        </div>
+    </footer>
 </body>
 </html>
