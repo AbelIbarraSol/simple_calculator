@@ -30,7 +30,7 @@ body{
     border-radius: 25px 25px 10px 10px;
 }
 
-.contentMain-screen{
+.contentMain-display{
     width: 90%;
     height: 15%;
     font-size: 30px;
@@ -84,6 +84,10 @@ body{
 
 .contentMain-table tr:last-child .number, .equal{
     width: 127px;
+}
+
+.contentMain-table tr:last-child #spot{
+    width: 80px;
 }
 
 .equal{
