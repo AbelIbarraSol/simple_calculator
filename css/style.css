@@ -1,0 +1,133 @@
+*{
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 24px;
+}
+body{
+    background:#033043;
+}
+.headerMain .container{
+    height: 30px;
+    background:none;
+}
+
+.mainContent{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px 25px 10px 10px;
+    background:none;
+}
+
+.mainContent .container{
+    width: 400px;
+    height: 530px;
+    padding: 70px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    background: #C3AE7F;
+    border-radius: 25px 25px 10px 10px;
+}
+
+.contentMain-display{
+    width: 90%;
+    height: 15%;
+    font-size: 30px;
+    text-align: end;
+    padding: 0 5%;
+    font-family: 'Nova Mono', monospace;
+    background: black;
+    border: none;
+    outline: none;
+	color: rgb(255, 9, 9, 1);
+	
+}::placeholder{
+		color: rgba(255, 9, 9, 0.329);
+	}
+
+.contentMain-brandCalculator{
+    width: 95%;
+    height: 8%;
+    padding-right: 5%;
+    color: #C3AE7F;
+    background: #141212;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.contentMain-table{
+    width: 100%;
+    height: 80%;
+    padding-top: 5px;
+    background: #141212;
+}
+
+.contentMain-table-buttons{
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentMain-table-button{
+    width: 80px;
+    height: 65px;
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.contentMain-table tr:first-child{
+    padding-top: 15px;
+}
+
+.contentMain-table tr:last-child .number, .equal{
+    width: 127px;
+}
+
+.contentMain-table tr:last-child #spot{
+    width: 80px;
+}
+
+.equal{
+    background: #FE710E;
+}
+
+.footerMain{
+    padding-top: 25px;
+}
+.container .footerMain-author{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background:none;
+}
+
+.footerMain-author-copyrigth {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+    background: none;
+    color: #C3AE7F;
+}
+
+.footerMain-author .footerMain-author-link {
+    display: flex;
+    gap: 25px;
+    background: none;
+    margin-left: 50px;
+    border-left: solid #C3AE7F 5px;
+    padding-left: 50px;
+}
+
+.footerMain-author-link-socialMedia {
+    background: transparent;
+}
+
+.footerMain-author-link-socialMedia .fa-brands {
+    font-size: 50px;
+    background: transparent;
+    color: #C3AE7F;
+}
